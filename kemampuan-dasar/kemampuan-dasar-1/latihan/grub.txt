@@ -1,0 +1,7 @@
+GNU GRUB VERSION 2.02
+
+Ubuntu = digunakan untuk memilih booting SO Ubuntu
+Advanced options for Ubuntu = Opsi lanjutan untuk SO Ubuntu (Recovery Mode)
+Windows Boot Manager = digunakan untuk memilih booting SO Windows
+System setup = digunakan untuk masuk pada setting sistem BIOS
+

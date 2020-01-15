@@ -1,0 +1,122 @@
+1. ls
+ 1.txt                               Music         Templates
+ Desktop                             Pictures      tonline.properties
+ Documents                           Public        user.properties
+ Downloads                           rtl8723bu     Videos
+ drv_WN2001_linux_3.0.0.4_20130913   rtlwifi_new   winehq.key
+'Dwi P.pdf'                          snap
+ jv                                  Steam
+
+
+2. cat 1.txt 
+1, 2, 3
+
+
+3. rm 1.txt 
+ls
+ Desktop                            'Dwi P.pdf'   Public        Steam                Videos
+ Documents                           jv           rtl8723bu     Templates            winehq.key
+ Downloads                           Music        rtlwifi_new   tonline.properties
+ drv_WN2001_linux_3.0.0.4_20130913   Pictures     snap          user.properties
+
+
+4. mkdir abc
+ls
+abc   Book1.xlsx  'Contact Supplier.pdf'   praxis-academy
+
+
+5. mv abc ca
+ls
+Book1.xlsx   ca  'Contact Supplier.pdf'   praxis-academy
+
+6. rmdir ca
+ls
+Book1.xlsx  'Contact Supplier.pdf'   praxis-academy
+
+
+7. sudo apt update
+Get:1 http://security.ubuntu.com/ubuntu bionic-security InRelease [88,7 kB]
+Hit:2 http://id.archive.ubuntu.com/ubuntu bionic InRelease                     
+Get:3 http://id.archive.ubuntu.com/ubuntu bionic-updates InRelease [88,7 kB]   
+Get:4 http://ppa.launchpad.net/jonathonf/mate-1.22/ubuntu bionic InRelease [15,9 kB]
+Hit:5 https://dl.winehq.org/wine-builds/ubuntu bionic InRelease                
+Hit:6 http://ppa.launchpad.net/morphis/anbox-support/ubuntu bionic InRelease   
+Get:7 http://id.archive.ubuntu.com/ubuntu bionic-backports InRelease [74,6 kB]
+Get:8 http://security.ubuntu.com/ubuntu bionic-security/main amd64 DEP-11 Metadata [38,5 kB]
+Hit:9 http://ppa.launchpad.net/webupd8team/indicator-kdeconnect/ubuntu bionic InRelease
+Get:10 http://id.archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [629 kB]
+Get:11 http://id.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [830 kB]
+Get:12 http://id.archive.ubuntu.com/ubuntu bionic-updates/main amd64 DEP-11 Metadata [295 kB]
+Get:13 http://id.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 48x48 Icons [73,8 kB]
+Get:14 http://id.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 64x64 Icons [143 kB]
+Get:15 http://id.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 128x128 Icons [365 kB]
+Get:16 http://id.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1.038 kB]
+Get:17 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 48x48 Icons [17,6 kB]
+Get:18 http://id.archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages [1.000 kB]
+Get:19 http://id.archive.ubuntu.com/ubuntu bionic-updates/universe Translation-en [321 kB]
+Get:20 http://id.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata [264 kB]
+Get:21 http://id.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 48x48 Icons [201 kB]          
+Get:22 http://id.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 64x64 Icons [431 kB]          
+Get:23 http://id.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 128x128 Icons [980 kB]            
+Get:24 http://id.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata [2.464 B]        
+Get:25 http://id.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata [7.976 B]        
+Get:26 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 64x64 Icons [41,5 kB]                  
+Get:27 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 128x128 Icons [97,7 kB]                
+Get:28 http://security.ubuntu.com/ubuntu bionic-security/universe i386 Packages [607 kB]                    
+Get:29 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [633 kB]                   
+Get:30 http://security.ubuntu.com/ubuntu bionic-security/universe Translation-en [213 kB]                   
+Get:31 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 DEP-11 Metadata [42,0 kB]           
+Get:32 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 64x64 Icons [116 kB]               
+Get:33 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 128x128 Icons [181 kB]             
+Get:34 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 DEP-11 Metadata [2.464 B]         
+Fetched 8.837 kB in 13s (685 kB/s)                                                                          
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+All packages are up to date.
+
+
+8. cp Dwi\ P.pdf Desktop/
+ls
+'Dwi P.pdf'   firefox.desktop   Home.desktop
+
+9. date
+Rab Jan 15 01:46:31 WIB 2020
+
+
+10. echo 123
+123
+
+
+11. ifconfig
+enp2s0f1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether b0:25:aa:17:29:d3  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 47  base 0x9000  
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 6212  bytes 630253 (630.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 6212  bytes 630253 (630.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlxcc79cf0e2f02: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.14  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::d550:4ae0:79c1:508  prefixlen 64  scopeid 0x20<link>
+        ether cc:79:cf:0e:2f:02  txqueuelen 1000  (Ethernet)
+        RX packets 121913  bytes 144623408 (144.6 MB)
+        RX errors 0  dropped 1530  overruns 0  frame 0
+        TX packets 85926  bytes 11114372 (11.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+12.ping google.com
+PING google.com (216.239.38.120) 56(84) bytes of data.
+64 bytes from any-in-2678.1e100.net (216.239.38.120): icmp_seq=1 ttl=53 time=23.1 ms
+64 bytes from any-in-2678.1e100.net (216.239.38.120): icmp_seq=2 ttl=53 time=39.4 ms

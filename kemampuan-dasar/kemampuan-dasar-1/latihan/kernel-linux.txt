@@ -1,0 +1,4 @@
+Kernel adalah perangkat lunak yang bertugas melayani bermacam-macam program untuk mengakses perangkat keras
+lokasi kernel pada folder /lib/modules/5.0.0-23-generic/kernel 
+
+
