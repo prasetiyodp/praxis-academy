@@ -1,3 +1,3 @@
 Team Collaboration With GitHub
 
-(https://ibb.co/pw3Mx7D)
+https://i.ibb.co/GpV806w/Screenshot-at-2020-01-15-18-25-12.png
