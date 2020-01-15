@@ -1,3 +1,3 @@
 Team Collaboration With GitHub
 
-Tool 1: Adding Team Members
+(https://ibb.co/pw3Mx7D)
