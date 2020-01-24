@@ -1,0 +1,17 @@
+{
+    "nameCard" : {
+        "nama" : {
+            "awal" : "Dwi",
+            "ahir" : "Prasetiyo"
+        },
+        "jenisKelamin" : "Laki-laki",
+        "alamat" : {
+            "desa" : "Indro",
+            "kecamatan" : "Gresik",
+            "kota" : "Gresik"    
+        },
+        "nomorHp" : "0822333434491",
+        "email" : "prasetiyodp@gmail.com",
+        "github" : "github.com/prasetiyodp"
+    }
+}

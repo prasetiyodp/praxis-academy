@@ -1,0 +1,17 @@
+<?xml version="1.0">
+<nameCard>
+    <nama>
+        <awal>Dwi</awal>
+        <ahir>Prasetiyo</ahir>
+    </nama>
+    <jenisKelamin>Laki-laki</jenisKelamin>
+    <alamat>
+        <desa>Indro</desa>
+        <kecamatan>Gresik</kecamatan>
+        <kota>Gresik</kota>
+    </alamat>
+
+    <nomorHp>082233434491</nomorHp>
+    <email>prasetiyodp@gmail.com</email>
+    <github>github.com/prasetiyodp</github>
+</nameCard>
